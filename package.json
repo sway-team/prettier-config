@@ -19,5 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/sway-team/prettier-config.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT"
 }
