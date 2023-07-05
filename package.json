@@ -1,0 +1,23 @@
+{
+  "name": "@swayjs/prettier-config",
+  "version": "1.0.0",
+  "description": "通用 prettier 配置",
+  "author": "BoTao <botaoxyz@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test:update": "prettier --config ./index.js --write examples/",
+    "test": "prettier --config ./index.js --check examples/"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sway-team/prettier-config.git"
+  },
+  "license": "MIT"
+}
